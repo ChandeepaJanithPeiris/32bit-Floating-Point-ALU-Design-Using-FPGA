@@ -70,7 +70,7 @@ always_comb begin
     end
 
     // Exponent of the output
-    exp = shift_amount + 127;
+    exp = shift_amount + d'127;
 
     // Rounding
     if (grs1 == 3'b111 || grs1 == 3'b101 || grs1 == 3'b110) mantissa_f = mantissa1 + 24'b1;

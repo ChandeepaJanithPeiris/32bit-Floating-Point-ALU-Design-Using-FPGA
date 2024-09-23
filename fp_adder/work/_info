@@ -5,133 +5,133 @@ cModel Technology
 Z0 dG:\Sem 5\DSD\Individulal Project\Final Design
 vfp_adder
 Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-Z2 I[gn@hH7mM3C9bB24On=jg1
+Z2 IhzWl]CJ3hSh?iDdl=BU933
 Z3 V4kQa>nE93]:SY[Qh3eU8c3
+Z4 !s105 fp_adder_sv_unit
 S1
-Z4 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_adder
-Z5 w1727030485
-Z6 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv
-Z7 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv
+Z5 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_adder
+Z6 w1727037687
+Z7 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv
+Z8 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv
 L0 1
-Z8 OV;L;10.1d;51
+Z9 OV;L;10.1d;51
 r1
 31
-Z9 o-work work -sv -O0
-Z10 !s100 <8TTFHf6AgN?PdbL3mEEi0
-Z11 !s105 fp_adder_sv_unit
-Z12 !s108 1727033449.196000
-Z13 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv|
-Z14 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv|
+Z11 o-work work -sv -O0
+Z12 !s100 AR`bJ`89i`R^20C0j0n8@0
+Z13 !s108 1727037690.367000
+Z14 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vfp_adder_tb
 R1
-Z15 IDc7KTkKIR>;S<7GQ4oeZb3
-Z16 Vf[8iHnBD8ERhAYM`5CW];1
+Z15 !s100 3YSm9D?zPRN<]jioj69VS1
+Z16 IDc7KTkKIR>;S<7GQ4oeZb3
+Z17 Vf[8iHnBD8ERhAYM`5CW];1
+Z18 !s105 fp_adder_tb_sv_unit
 S1
-R4
-Z17 w1727031855
-Z18 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv
-Z19 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv
+R5
+Z19 w1727031855
+Z20 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv
+Z21 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv
 L0 3
-R8
+R9
 r1
 31
-R9
-Z20 !s100 3YSm9D?zPRN<]jioj69VS1
-Z21 !s105 fp_adder_tb_sv_unit
-Z22 !s108 1727033449.432000
-Z23 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv|
-Z24 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv|
+Z22 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv|
+R11
+Z23 !s108 1727037690.634000
+Z24 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vfull_adder
 R1
-Z25 I@Gg^9;zH?@?66b[iCk`QS1
-Z26 VC0e98nFa5j]ZdB9g3Ai`c3
+Z25 !s100 2nhKEiho<j2DGN`gaL`aX0
+Z26 I@Gg^9;zH?@?66b[iCk`QS1
+Z27 VC0e98nFa5j]ZdB9g3Ai`c3
+Z28 !s105 full_adder_sv_unit
 S1
-R4
-Z27 w1727022370
-Z28 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv
-Z29 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv
+R5
+Z29 w1727022370
+Z30 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv
+Z31 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv
 L0 1
-R8
+R9
 r1
 31
-R9
-Z30 !s100 2nhKEiho<j2DGN`gaL`aX0
-Z31 !s105 full_adder_sv_unit
-Z32 !s108 1727033449.589000
-Z33 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv|
-Z34 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv|
+Z32 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv|
+R11
+Z33 !s108 1727037690.823000
+Z34 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vfull_adder_tb
 R1
-Z35 I;GWjM_K<X]j3S8VYHng811
-Z36 VMMCJEYhb_ebz;Wmj4ga5f3
+Z35 !s100 9C^S0EAHbNA?3lFNBFO>10
+Z36 I;GWjM_K<X]j3S8VYHng811
+Z37 VMMCJEYhb_ebz;Wmj4ga5f3
+Z38 !s105 full_adder_tb_sv_unit
 S1
-R4
-Z37 w1727031189
-Z38 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv
-Z39 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv
+R5
+Z39 w1727031189
+Z40 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv
+Z41 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv
 L0 3
-R8
+R9
 r1
 31
-R9
-Z40 !s100 9C^S0EAHbNA?3lFNBFO>10
-Z41 !s105 full_adder_tb_sv_unit
-Z42 !s108 1727033449.778000
-Z43 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv|
-Z44 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv|
+Z42 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv|
+R11
+Z43 !s108 1727037690.996000
+Z44 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vright_shift
 R1
-Z45 I^NCOL6EF9RDnWUi?=FPOa0
-Z46 V;]Ra=KKUR<U5>Y8;KbHC?3
+Z45 !s100 AMc]oUTGc]<9<TbQYD0L;2
+Z46 I^NCOL6EF9RDnWUi?=FPOa0
+Z47 V;]Ra=KKUR<U5>Y8;KbHC?3
+Z48 !s105 right_shift_sv_unit
 S1
-R4
-Z47 w1727018272
-Z48 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv
-Z49 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv
+R5
+Z49 w1727018272
+Z50 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv
+Z51 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv
 L0 1
-R8
+R9
 r1
 31
-R9
+Z52 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv|
+R11
 !i10b 1
-Z50 !s100 AMc]oUTGc]<9<TbQYD0L;2
-Z51 !s105 right_shift_sv_unit
 !s85 0
-Z52 !s108 1727033450.030000
-Z53 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv|
-Z54 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv|
+Z53 !s108 1727037691.106000
+Z54 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv|
 !s101 -O0
 vtb_right_shift
 R1
 !i10b 1
-!s100 R2ma8181Y5=:@?7WAHkzM3
-IL>J4I]PDRMLlBB2CnH<:X1
-VRLIjL23iC=H4^GCh8ie1D0
-!s105 right_shift_tb_sv_unit
+Z55 !s100 R2ma8181Y5=:@?7WAHkzM3
+Z56 IL>J4I]PDRMLlBB2CnH<:X1
+Z57 VRLIjL23iC=H4^GCh8ie1D0
+Z58 !s105 right_shift_tb_sv_unit
 S1
-R4
-w1727031404
-8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv
-FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv
+R5
+Z59 w1727031404
+Z60 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv
+Z61 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv
 L0 2
-R8
+R9
 r1
 !s85 0
 31
-!s108 1727033450.202000
+!s108 1727037691.279000
 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv|
+Z62 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv|
 !s101 -O0
-R9
+R11

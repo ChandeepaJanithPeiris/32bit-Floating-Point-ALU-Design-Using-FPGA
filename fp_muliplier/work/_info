@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_adder
+vbinary_multiplier
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 IUmn;WBeJI`P8n5SnWo7Da1
+Z3 VF]QkUY16YD4ZJ7lEPmk:m0
+Z4 !s105 binary_multiplier_sv_unit
+S1
+Z5 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_muliplier
+Z6 w1727080777
+Z7 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv
+Z8 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv
+L0 1
+Z9 OV;L;10.1d;51
+r1
+31
+Z10 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv|
+Z11 o-work work -sv -O0
+!i10b 1
+Z12 !s100 g6af71z[nUJS^2o_ADg:E0
+!s85 0
+Z13 !s108 1727080786.170000
+Z14 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv|
+!s101 -O0
+vbinary_multiplier_tb
+R1
+!i10b 1
+!s100 FOZiVBaCTK?nR7@3c6fVC0
+Ih09h4<EnF@P];j]`?_I:g0
+V;=fTEkiNig9UnBF>=MWYc3
+Z15 !s105 binary_multiplier_tb_sv_unit
+S1
+R5
+w1727080755
+Z16 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv
+Z17 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1727080786.373000
+!s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv|
+Z18 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv|
+!s101 -O0
+R11

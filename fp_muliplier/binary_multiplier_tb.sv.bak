@@ -1,0 +1,44 @@
+module binary_multiplier_tb;
+
+    // Parameters for the multiplier (You can change N for different bit-widths)
+    parameter N = 4;
+
+    // Testbench signals
+    logic [N-1:0] A, B;
+    logic [2*N-1:0] P;
+
+    // Instantiate the multiplier
+    binary_multiplier #(N) uut (
+        .A(A),
+        .B(B),
+        .P(P)
+    );
+
+    // Initial block to apply stimulus
+    initial begin
+        // Display the header
+        $display("A\t\tB\t\t\tP");
+
+        // Apply test cases
+        A = 4'b0101; // A = 5
+        B = 4'b0010; // B = 2
+        #10;  // Wait for result
+        $display("%d\t%d\t\t%b", A, B, P);
+
+        A = 4'b1001; // A = -9
+        B = 4'b0011;  // B = 3
+        #10;  // Wait for result
+        $display("%d\t%d\t\t%b", A, B, P);
+
+        A = 4'b1011; // A = 11
+        B = 4'b0100; // B = 4
+        #10;  // Wait for result
+        $display("%d\t%d\t\t%b", A, B, P);
+
+        A = 4'b0101; // A = -21
+        B = 4'b1001; // B = -9
+        #10;  // Wait for result
+        $display("%d\t%d\t\t%b", A, B, P);
+    end
+
+endmodule
