@@ -1,23 +1,23 @@
-{G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module right_shift
-
-Top level modules:
-	right_shift
-
-} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv}
+{G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module binary_multiplier
 
 Top level modules:
 	binary_multiplier
 
-} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv}
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module right_shift_tb
+-- Compiling module right_shift
 
 Top level modules:
-	right_shift_tb
+	right_shift
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fp_multiplier
+
+Top level modules:
+	fp_multiplier
 
 } {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv} {2 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -41,5 +41,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	binary_multiplier_tb
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module right_shift_tb
+
+Top level modules:
+	right_shift_tb
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fp_multiplier_tb
+
+Top level modules:
+	fp_multiplier_tb
 
 } {} {}}

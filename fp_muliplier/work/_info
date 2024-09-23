@@ -11,7 +11,7 @@ Z4 VF]QkUY16YD4ZJ7lEPmk:m0
 Z5 !s105 binary_multiplier_sv_unit
 S1
 Z6 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_muliplier
-Z7 w1727080777
+Z7 w1727100033
 Z8 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv
 Z9 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv
 L0 1
@@ -20,7 +20,7 @@ r1
 31
 Z11 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv|
 Z12 o-work work -sv -O0
-Z13 !s108 1727088847.123000
+Z13 !s108 1727100044.882000
 Z14 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv|
 !i10b 1
 !s85 0
@@ -42,52 +42,96 @@ r1
 31
 Z22 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv|
 R12
-Z23 !s108 1727088847.310000
+Z23 !s108 1727100045.101000
 Z24 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv|
 !i10b 1
 !s85 0
 !s101 -O0
-vright_shift
+vfp_multiplier
 R1
-Z25 !s100 [YB^b9EOlVlJe6X]Z3Snn2
-Z26 I=cFmLMhU2WVzBj2Hm>8>J0
-Z27 VG;F`Q?1j9H4i0RdZPgJmK2
-Z28 !s105 right_shift_sv_unit
+Z25 I=Q__H=_AGi3CB8EA=5Xam3
+Z26 VB;nhmnkn@1R0PgGY2zjj<0
+Z27 !s105 fp_multiplier_sv_unit
 S1
 R6
-Z29 w1727088557
-Z30 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv
-Z31 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv
+Z28 w1727099981
+Z29 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv
+Z30 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv
 L0 1
 R10
 r1
 31
-Z32 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv|
+Z31 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv|
 R12
 !i10b 1
+Z32 !s100 9GViWW;Z4cM;KSD8A_bRn0
 !s85 0
-Z33 !s108 1727088847.435000
-Z34 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv|
+Z33 !s108 1727100045.602000
+Z34 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv|
 !s101 -O0
-vright_shift_tb
+vfp_multiplier_tb
 R1
 !i10b 1
-!s100 Sfh3S:1bU2FRF>Lhi65Hb2
-IRL^3EN7oflSDBo7L;KT<33
-Z35 V_Z`K>kFR;FAG<fhnEECg20
-Z36 !s105 right_shift_tb_sv_unit
+Z35 !s100 `VU?>^_XUGfL5TOLj5Q0e1
+Z36 Illm7;i0A5bgDC:3KOI^Gj2
+Z37 V8ikQ1Y8EVoIWQ5jCl2Yi^1
+Z38 !s105 fp_multiplier_tb_sv_unit
 S1
 R6
-w1727088837
-Z37 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv
-Z38 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv
-L0 2
+Z39 w1727099219
+Z40 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv
+Z41 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv
+L0 3
 R10
 r1
 !s85 0
 31
-!s108 1727088847.592000
-!s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv|
-Z39 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv|
+!s108 1727100045.712000
+!s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv|
+Z42 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv|
 !s101 -O0
 R12
+vright_shift
+R1
+Z43 !s100 [YB^b9EOlVlJe6X]Z3Snn2
+Z44 I=cFmLMhU2WVzBj2Hm>8>J0
+Z45 VG;F`Q?1j9H4i0RdZPgJmK2
+Z46 !s105 right_shift_sv_unit
+S1
+R6
+Z47 w1727088557
+Z48 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv
+Z49 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv
+L0 1
+R10
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv|
+R12
+Z51 !s108 1727100045.212000
+Z52 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv|
+!i10b 1
+!s85 0
+!s101 -O0
+vright_shift_tb
+R1
+Z53 !s100 Sfh3S:1bU2FRF>Lhi65Hb2
+Z54 IRL^3EN7oflSDBo7L;KT<33
+Z55 V_Z`K>kFR;FAG<fhnEECg20
+Z56 !s105 right_shift_tb_sv_unit
+S1
+R6
+Z57 w1727088837
+Z58 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv
+Z59 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv
+L0 2
+R10
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv|
+R12
+Z61 !s108 1727100045.477000
+Z62 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv|
+!i10b 1
+!s85 0
+!s101 -O0

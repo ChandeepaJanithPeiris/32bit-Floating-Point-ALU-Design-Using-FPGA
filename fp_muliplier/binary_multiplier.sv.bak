@@ -1,7 +1,7 @@
 module binary_multiplier #(parameter N = 24) (
-    input  logic [N-1:0] A,  // N-bit signed input A
-    input  logic [N-1:0] B,  // N-bit signed input B
-    output logic [2*N-1:0] P // 2N-bit signed product
+    input  logic [23:0] A,  // N-bit input A
+    input  logic [23:0] B,  // N-bit input B
+    output logic [47:0] P // 2N-bit product
 );
 
     // Array to hold partial products
