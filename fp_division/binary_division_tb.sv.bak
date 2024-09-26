@@ -1,0 +1,44 @@
+module binary_division_tb;
+    // Input signals
+    logic [3:0] Q, M;
+    
+    // Output signals
+    logic signed [4:0] A;      // Remainder
+    logic signed [4:0] Qo;     // Quotient
+
+    // Instantiate the binary_division module
+    binary_division  div (
+        .Q(Q),
+        .M(M),
+        .Qo(Qo),
+        .A(A)
+    );
+
+    // Test procedure
+    initial begin
+        // Monitor signals to observe changes
+        $monitor("Time: %0t | Q = %0b, M = %0b | Quotient (Qo) = %0b, Remainder (A) = %0b",
+                  $time, Q, M, Qo, A);
+
+        // Test Case 1: 8 / 3
+        Q = 4'd8;  // Dividend = 8
+        M = 4'd3;  // Divisor = 3
+        #10;
+
+        // Test Case 2: 9 / 2
+        Q = 4'd9;  // Dividend = 9
+        M = 4'd2;  // Divisor = 2
+        #10;
+
+        // Test Case 3: 15 / 4
+        Q = 4'd15; // Dividend = 15
+        M = 4'd4;  // Divisor = 4
+        #10;
+
+        // Test Case 4: 7 / 1
+        Q = 4'd7;  // Dividend = 7
+        M = 4'd1;  // Divisor = 1
+        #10;
+
+    end
+endmodule

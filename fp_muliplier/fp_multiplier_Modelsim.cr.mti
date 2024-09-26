@@ -1,16 +1,25 @@
-{G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv}
+{G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module binary_multiplier
+
+Top level modules:
+	binary_multiplier
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module right_shift
 
 Top level modules:
 	right_shift
 
-} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier.sv}
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv} {2 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module binary_multiplier
+-- Compiling module right_shift_tb
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
 
 Top level modules:
-	binary_multiplier
+	right_shift_tb
 
 } {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -22,14 +31,28 @@ Top level modules:
 	right_shift
 	fp_multiplier
 
-} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv} {2 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv}
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv} {2 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module right_shift_tb
-** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/right_shift_tb.sv(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+-- Compiling module binary_multiplier_tb
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(23): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(27): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/binary_multiplier_tb.sv(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 
 
 Top level modules:
-	right_shift_tb
+	binary_multiplier_tb
 
 } {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_muliplier/fp_multiplier_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012

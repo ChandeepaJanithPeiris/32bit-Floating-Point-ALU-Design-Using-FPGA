@@ -1,0 +1,22 @@
+{G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/binary_division.sv} {1 {vlog -work work -sv {G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\binary_division.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module binary_division
+
+Top level modules:
+	binary_division
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/binary_division_tb.sv} {1 {vlog -work work -sv {G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\binary_division_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module binary_division_tb
+
+Top level modules:
+	binary_division_tb
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module fp_division_tb
+
+Top level modules:
+	fp_division_tb
+
+} {} {}}
