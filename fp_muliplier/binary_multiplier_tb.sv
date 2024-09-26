@@ -1,14 +1,13 @@
+`timescale 1ns/1ns
 module binary_multiplier_tb;
 
     // Parameters for the multiplier (Set N to 24 for 24-bit inputs)
-    parameter N = 24;
-
     // Testbench signals
-    logic [N-1:0] A, B;
-    logic [2*N-1:0] P;
+    logic [23:0] A, B;
+    logic [47:0] P;
 
     // Instantiate the multiplier
-    binary_multiplier #(N) uut (
+    binary_multiplier uut (
         .A(A),
         .B(B),
         .P(P)
