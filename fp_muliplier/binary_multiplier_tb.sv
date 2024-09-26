@@ -22,22 +22,22 @@ module binary_multiplier_tb;
         A = 24'b00000000000000000000000101; // A = 5
         B = 24'b00000000000000000000000010; // B = 2
         #10;  // Wait for result
-        $display("%d\t\t%d\t\t%d", A, B, P);
+        $display("%b\t\t%b\t\t%b", A, B, P);
 
         A = 24'b11111111111111111111110111; // A = 9
         B = 24'b00000000000000000000000011; // B = 3
         #10;  // Wait for result
-        $display("%d\t\t%d\t\t%d", A, B, P);
+        $display("%b\t\t%b\t\t%b", A, B, P);
 
         A = 24'b00000000000000000000001011; // A = 11
         B = 24'b00000000000000000000000100; // B = 4
         #10;  // Wait for result
-        $display("%d\t\t%d\t\t%d", A, B, P);
+        $display("%b\t\t%b\t\t%b", A, B, P);
 
         A = 24'b11111111111111111111111011; // A = 21
         B = 24'b11111111111111111111111001; // B = 9
         #10;  // Wait for result
-        $display("%d\t\t%d\t\t%d", A, B, P);
+        $display("%b\t\t%b\t\t%b", A, B, P);
     end
 
 endmodule

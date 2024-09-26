@@ -1,54 +1,54 @@
+`include "binary_multiplier.sv"
+`include "right_shift.sv"
+
 module fp_multiplier (
     input logic [31:0] in1,
     input logic [31:0] in2,
     output logic [31:0] out
 );
 
-//number 1
-logic sign1 =  in1[31];
+// Number 1
+logic sign1 = in1[31];
 logic [7:0] exp1  = in1[30:23];
-logic [22:0] mantissa1 = {1'b1,in1[22:0]};
+logic [23:0] mantissa1 = {1'b1, in1[22:0]}; // add implicit 1
 
-//number 2
-logic sign1 =  in1[31];
-logic [7:0] exp1  = in1[30:23];
-logic [22:0] mantissa1 = {1'b1,in1[22:0]};
+// Number 2
+logic sign2 = in2[31]; 
+logic [7:0] exp2  = in2[30:23]; 
+logic [23:0] mantissa2 = {1'b1, in2[22:0]}; // add implicit 1
 
 logic sign;
 logic [7:0] exp;
-logic [49:0] mult_mantissa;
+logic [47:0] mult_mantissa;
+logic [47:0] shifted_mantissa;
 logic [22:0] mantissa;
 logic [7:0] shift_amount;
 
-
-
+// Sign calculation
 assign sign = sign1 ^ sign2;
-assign  exp = exp1 + exp2 - 127;
 
+// Binary multiplier instantiation
 binary_multiplier mult(
     .A(mantissa1),
     .B(mantissa2),
     .P(mult_mantissa)
 );
 
-right_shift rshift(
-    .in(mult_mantissa),
-    .shift_amount(shift_amount),
-    .out(mantisssa)
-)
-
+//for further normalizations right_shift module need to used 
 
 always_comb begin 
-    //multiply two mantissas
-    if (mult_mantissa[1]  == 1'b1) begin
-        shift_amount = 1; // if msb == 1 right shift
-        //right_shift
-        exp = exp + 1; //increase exponent by 1       
+    // Multiply two mantissas
+    if (mult_mantissa[47] == 1'b1) begin
+        shifted_mantissa = mult_mantissa >> 1; // Shift right by 1
+        mantissa = shifted_mantissa[45:23];  //extract mantisssa
+        exp = exp1 + exp2 - 126; // Increase exponent by 1       
     end
-    else shift_amount = 0;
-
-    out = {sign,exp,mantissa};
-    
+    else if (mult_mantissa[47] == 1'b0) begin 
+        mantissa = mult_mantissa[45:23];  // no need for shift, just extract the mantissa
+        exp = exp1 + exp2 - 127;
+    end
 end
+
+assign out = {sign, exp, mantissa}; // Combine sign, exponent, and mantissa
     
 endmodule

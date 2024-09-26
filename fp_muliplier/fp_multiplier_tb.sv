@@ -18,17 +18,29 @@ module fp_multiplier_tb;
 
     // Test stimulus
     initial begin
-        // Monitor changes in a more readable format (in decimal)
-        $monitor("Time: %0t | in1: %h (%f) | in2: %h (%f) | out: %h", $time, in1, $bitstoreal(in1), in2, $bitstoreal(in2), out);
+        // Monitor changes with readable binary outputs
+        $monitor("Time: %0t | in1: %b | in2: %b | out: %b", $time, in1, in2, out);
 
-        // Test 1: 0.513 * 661.016
-        in1 = 32'b00111111000000110101001111111000; // 0.513
-        in2 = 32'b01000100001001010100000100000110; // 661.016
+        // Test 1: 1.0 * 1.0 in IEEE 754 format
+        in1 = 32'b00111111100000000000000000000000; // 1.0 in IEEE 754 (single precision)
+        in2 = 32'b00111111100000000000000000000000; // 1.0 in IEEE 754 (single precision)
         #10;
 
-        // Add more test cases as needed...
+        // Test 2: 0.5 * 0.5 in IEEE 754 format
+        in1 = 32'b00111111000000000000000000000000; // 0.5 in IEEE 754 
+        in2 = 32'b00111111000000000000000000000000; // 0.5 in IEEE 754
+        #10;
 
-        // Stop simulation after enough time
+        // Test 3: 2.0 * 2.0 in IEEE 754 format
+        in1 = 32'b01000000000000000000000000000000; // 2.0 in IEEE 754
+        in2 = 32'b01000000000000000000000000000000; // 2.0 in IEEE 754
+        #10;
+
+        // Test 4: 0.513 * 661.016 in IEEE 754 format
+        in1 = 32'b00111111000000110101001111111000; // 0.513 in IEEE 754
+        in2 = 32'b01000100001001010100000100000110; // 661.016 in IEEE 754
+        #10;
+        
     end
 
 endmodule
