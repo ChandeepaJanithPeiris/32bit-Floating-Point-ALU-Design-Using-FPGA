@@ -9,6 +9,8 @@ logic signed [24:0] M_extended;
 logic signed [24:0] A_new;
 logic [23:0] Q_local;
 
+
+
 always_comb begin
     A = 25'b0;  // Initialize A to zero
     M_extended = {1'b0, M};  // Extend M to 25 bits

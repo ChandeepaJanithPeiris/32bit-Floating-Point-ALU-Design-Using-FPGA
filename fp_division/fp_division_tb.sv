@@ -1,3 +1,5 @@
+`timescale 1ns/1ns
+
 module fp_division_tb;
 
     // Input signals

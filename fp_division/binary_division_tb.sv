@@ -17,27 +17,27 @@ module binary_division_tb;
     // Test procedure
     initial begin
         // Monitor signals to observe changes
-        $monitor("Time: %0t | Q = %0d, M = %0d | Quotient (Qo) = %0d, Remainder (A) = %0d",
+        $monitor("Time: %0t | Q = %0b, M = %0b | Quotient (Qo) = %0b, Remainder (A) = %0b",
                   $time, Q, M, Qo, A);
 
         // Test Case 1: 8 / 3
-        Q = 24'd8;  // Dividend = 8
-        M = 24'd3;  // Divisor = 3
+        Q = 24'b111111100001000000000000;  // Dividend = 8
+        M = 24'b100001111000000000000000;  // Divisor = 3
         #10;
 
         // Test Case 2: 9 / 2
-        Q = 24'd9;  // Dividend = 9
-        M = 24'd2;  // Divisor = 2
+        Q = 24'b111011010010000000000000;  // Dividend = 9
+        M = 24'b100001111000000000000000;  // Divisor = 2
         #10;
 
         // Test Case 3: 15 / 4
-        Q = 24'd15; // Dividend = 15
-        M = 24'd4;  // Divisor = 4
+        Q = 24'b110010110100000000000000; // Dividend = 15
+        M = 24'b100001111000000000000000;  // Divisor = 4
         #10;
 
         // Test Case 4: 7 / 1
-        Q = 24'd7;  // Dividend = 7
-        M = 24'd1;  // Divisor = 1
+        Q = 24'b100001111000000000000000;  // Dividend = 7
+        M = 24'b100001111000000000000000;  // Divisor = 1
         #10;
 
         // Additional 24-bit test cases

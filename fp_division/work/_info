@@ -3,92 +3,158 @@ K3
 13
 cModel Technology
 Z0 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_muliplier
-vbinary_division
+vbinary_div_tb
 Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-Z2 Iz2194Qk2oH?XDoNVCl6XX2
-Z3 VdSVf49XEEd_bEDZ9D0FXX3
-Z4 !s105 fp_division_sv_unit
+Z2 I^]0VUMa0T2>HzhFjaAN5f0
+Z3 Vi2Cnzb3:FGSQ2I<P1A0=m2
 S1
-Z5 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division
-Z6 w1727376365
-Z7 Fbinary_division.sv
-Z8 8G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\fp_division.sv
-Z9 FG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\fp_division.sv
+Z4 dG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division
+Z5 w1727413089
+Z6 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div_tb.sv
+Z7 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div_tb.sv
 L0 1
-Z10 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z11 !s108 1727376379.811000
-Z12 !s107 binary_division.sv|G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\fp_division.sv|
-Z13 !s90 -reportprogress|300|-work|work|-sv|G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\fp_division.sv|
-Z14 o-work work -sv -O0
+Z9 o-work work -sv -O0
+Z10 !s100 MR1ikG?QF7M;9?oNoNME[2
+Z11 !s105 extended_div_tb_sv_unit
+Z12 !s108 1727413105.449000
+Z13 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div_tb.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div_tb.sv|
 !i10b 1
-Z15 !s100 8>W`9UaG4=HL]JJbCcLzN2
+!s85 0
+!s101 -O0
+vbinary_division
+R1
+Z15 I>SVZD^z;Z4MC0b2Ze7`D22
+Z16 VdSVf49XEEd_bEDZ9D0FXX3
+Z17 !s105 fp_division_sv_unit
+S1
+R4
+Z18 w1727414810
+Z19 Fbinary_division.sv
+Z20 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division.sv
+Z21 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division.sv
+L0 1
+R8
+r1
+31
+Z22 !s108 1727419814.582000
+Z23 !s107 binary_division.sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division.sv|
+Z24 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division.sv|
+R9
+Z25 !s100 9gdP^mnUZT82Fb<Q4mA?>1
+!i10b 1
 !s85 0
 !s101 -O0
 vbinary_division_tb
 R1
-Z16 !s100 C0Oi@4=@IgbDnD=NEoh5X3
-Z17 IjOkag@n`XLAH_=1bNjWAE1
-Z18 V>aNjAOY8@;:e:?_>2=5>R1
-Z19 !s105 binary_division_tb_sv_unit
+Z26 !s100 AOPEgKG;g8LfzHb9Sn79S0
+Z27 Ig7B@]0c0Z5B@V;84@G9mE2
+Z28 V>aNjAOY8@;:e:?_>2=5>R1
+Z29 !s105 binary_division_tb_sv_unit
 S1
-R5
-Z20 w1727371764
-Z21 8G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\binary_division_tb.sv
-Z22 FG:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\binary_division_tb.sv
+R4
+Z30 w1727409315
+Z31 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/binary_division_tb.sv
+Z32 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/binary_division_tb.sv
 L0 1
-R10
+R8
 r1
 31
-Z23 !s90 -reportprogress|300|-work|work|-sv|G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\binary_division_tb.sv|
-R14
-Z24 !s108 1727376379.685000
-Z25 !s107 G:\Sem 5\DSD\Individulal Project\Final Design\32bit-Floating-Point-ALU-Design-Using-FPGA\fp_division\binary_division_tb.sv|
+Z33 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/binary_division_tb.sv|
+R9
+Z34 !s108 1727419814.473000
+Z35 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/binary_division_tb.sv|
 !i10b 1
 !s85 0
 !s101 -O0
-vfp_division
+vextended_div
 R1
-Z26 ID>9D1hnnUR^c^MUUm7NbQ0
-Z27 ValV`d6`SK=ZO1S7IB9dD00
-R4
+Z36 I_^YZfXO9z1U;Z;b^7nNGV1
+Z37 VKia8:^@Q^d?K?P43>X0TA2
+Z38 !s105 extended_div_sv_unit
 S1
-R5
-R6
+R4
+Z39 w1727419811
+Z40 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div.sv
+Z41 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div.sv
+L0 1
 R8
-R9
-L0 3
-R10
 r1
 31
-R11
-R12
-R13
-R14
+Z42 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div.sv|
+R9
 !i10b 1
-Z28 !s100 ?LYZIZDK]UQENNE`nQNU83
+Z43 !s100 KRPO;;X=>k0mL1>DK^<Cf3
+!s85 0
+Z44 !s108 1727419814.848000
+Z45 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div.sv|
+!s101 -O0
+vextended_div_tb
+R1
+!i10b 1
+Z46 !s100 =>VjbQmfHEeYA3Y`jMfLP0
+Z47 IgS?`<5>OhUY68L1IkN:c_2
+Z48 VRYXJzb?fD1iN?MKE8K]<a3
+R11
+S1
+R4
+Z49 w1727413486
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1727419814.973000
+!s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/extended_div_tb.sv|
+R14
+!s101 -O0
+R9
+vfp_division
+R1
+Z50 !s100 nYlbP^bY5PBUm[N73n7iE2
+Z51 IlMoidG>WDXo]H4NUkPioC3
+Z52 ValV`d6`SK=ZO1S7IB9dD00
+R17
+S1
+R4
+Z53 w1727376365
+R20
+R21
+L0 3
+R8
+r1
+31
+R22
+R23
+R24
+R9
+!i10b 1
 !s85 0
 !s101 -O0
 vfp_division_tb
 R1
-!i10b 1
-Z29 !s100 SVE@=NB:jaAR[GSgGeKbo0
-Z30 InE=Nh@KcRLb;:UcZK5TQe0
-Z31 Vf^UlF0OXj?b3f>nZi5fe[0
-Z32 !s105 fp_division_tb_sv_unit
+Z54 !s100 oAXaC^oa3iWcOB9KdlJd22
+Z55 I9;jg1lRIfDZ:TZcIEAah;3
+Z56 Vf^UlF0OXj?b3f>nZi5fe[0
+Z57 !s105 fp_division_tb_sv_unit
 S1
-R5
-Z33 w1727375286
-Z34 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv
-Z35 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv
-L0 1
-R10
+R4
+Z58 w1727414988
+Z59 8G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv
+Z60 FG:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv
+L0 3
+R8
 r1
-!s85 0
 31
-!s108 1727376379.999000
-!s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv|
-Z36 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv|
+Z61 !s90 -reportprogress|300|-work|work|-sv|G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv|
+R9
+Z62 !s108 1727419814.754000
+Z63 !s107 G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_division/fp_division_tb.sv|
+!i10b 1
+!s85 0
 !s101 -O0
-R14
