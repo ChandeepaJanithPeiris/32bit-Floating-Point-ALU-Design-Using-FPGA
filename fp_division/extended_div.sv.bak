@@ -26,10 +26,10 @@ always_comb begin
     count = 0;
     
     // Loop through 24 iterations (as we are processing 24-bit numbers)
-    while (A != 0 && count < 24) begin
+    while (A != 0 && count < 20) begin
         // Concatenate current quotient bit to the result
-        ans_temp = {ans_temp[22:0],Qo[24]};  // Assume Qo[24] is the quotient bit
-        Q_temp = {A[24:1], 1'b0};  // Shift A and add 1 to Q_temp
+        ans_temp = {ans_temp[22:0],Qo[0]};  // Assume Q[0] is the quotient bit
+        Q_temp = {A[24:1], 1'b0};  // Shift A and add 0 to end of Q_temp 
         count = count + 1;
     end
 
