@@ -5,13 +5,6 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	fp_adder
 
-} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module full_adder
-
-Top level modules:
-	full_adder
-
 } {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/fp_adder_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module fp_adder_tb
@@ -19,12 +12,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	fp_adder_tb
 
-} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv}
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module right_shift
+-- Compiling module full_adder
 
 Top level modules:
-	right_shift
+	full_adder
 
 } {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/full_adder_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -32,6 +25,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	full_adder_tb
+
+} {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module right_shift
+
+Top level modules:
+	right_shift
 
 } {} {}} {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv} {1 {vlog -work work -sv {G:/Sem 5/DSD/Individulal Project/Final Design/32bit-Floating-Point-ALU-Design-Using-FPGA/fp_adder/right_shift_tb.sv}
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
