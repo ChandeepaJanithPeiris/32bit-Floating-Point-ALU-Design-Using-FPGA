@@ -1,0 +1,16 @@
+
+State Machine - |lcd_controller|state
+Name state.s24 state.s23 state.s22 state.s21 state.s20 state.s13 state.s12 state.s11 state.s10 state.s4 state.s3 state.s2 state.s1 
+state.s1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.s2 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.s3 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.s4 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.s10 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.s11 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.s12 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.s13 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.s20 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.s21 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.s22 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.s23 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.s24 1 0 0 0 0 0 0 0 0 0 0 0 1 

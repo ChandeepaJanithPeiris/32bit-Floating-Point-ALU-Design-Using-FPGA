@@ -1,0 +1,15 @@
+module lcd_data_gen (
+    input wire clk,
+    input wire reset,
+    output reg [127:0] line1,
+    output reg [127:0] line2
+);
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            line1 <= 128'h48656C6C6F20576F726C6421; // "Hello World!"
+            line2 <= 128'h57656C636F6D6520546F204C4344; // "Welcome To LCD"
+        end else begin
+            // Update logic for line1 and line2 (if needed)
+        end
+    end
+endmodule

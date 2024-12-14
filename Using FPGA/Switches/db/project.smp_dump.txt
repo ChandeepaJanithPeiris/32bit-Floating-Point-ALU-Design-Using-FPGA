@@ -1,0 +1,8 @@
+
+State Machine - |switches_to_LEDs|state
+Name state.INIT state.WRITE_RESULT state.WRITE_SECOND state.WRITE_FIRST state.WAIT 
+state.WAIT 0 0 0 0 0 
+state.WRITE_FIRST 0 0 0 1 1 
+state.WRITE_SECOND 0 0 1 0 1 
+state.WRITE_RESULT 0 1 0 0 1 
+state.INIT 1 0 0 0 1 
