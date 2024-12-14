@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="IEEE_FPU">
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M3|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M7|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingAddition:A4|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_rvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M2|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M4|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M6|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M8|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingAddition:FS|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_rvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingAddition:A3|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_rvi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M1|lpm_mult:Mult0" CBX_FILE_NAME="mult_vgt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingDivision:FD|FloatingMultiplication:M5|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|FPU_TOP|FloatingMultiplication:FM|lpm_mult:Mult0" CBX_FILE_NAME="mult_bdt.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

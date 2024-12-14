@@ -1,0 +1,5 @@
+
+State Machine - |FPU_TOP|input_stage
+Name input_stage.01 
+input_stage.00 0 
+input_stage.01 1 

@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vFloatAdditionTB
+Z1 IPnRP<0YFf0GT=:zf1akd_1
+Z2 VM5>@l4n:AVWd[neONg@^g1
+Z3 dC:\Users\User\Desktop\FPU
+Z4 w1734195850
+Z5 8C:/Users/User/Desktop/FPU/FloatAdditionTB.v
+Z6 FC:/Users/User/Desktop/FPU/FloatAdditionTB.v
+L0 2
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatAdditionTB.v|
+Z9 o-work work -O0
+Z10 n@float@addition@t@b
+Z11 !s100 @^IO;i:F<:K846chlo:EO2
+Z12 !s108 1734195857.269000
+Z13 !s107 C:/Users/User/Desktop/FPU/FloatAdditionTB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFloatDivisionTB
+Z14 !s100 UCcA]I?9G0jc]?Z`zHf_90
+Z15 IT4DXk]MCY9[R_2TP@WHlm2
+Z16 Vbb_<=NU5C7XA8aH=iKjF50
+R3
+Z17 w1733992873
+Z18 8C:/Users/User/Desktop/FPU/FloatDivisionTb.v
+Z19 FC:/Users/User/Desktop/FPU/FloatDivisionTb.v
+L0 3
+R7
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatDivisionTb.v|
+R9
+Z21 n@float@division@t@b
+Z22 !s108 1734195857.402000
+Z23 !s107 C:/Users/User/Desktop/FPU/FloatDivisionTb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFloatingAddition
+Z24 !s100 j=8b2]mNk=FUF]8=@P2HQ3
+Z25 I>mVmSNjjbV=<aX<a_E?bJ1
+Z26 VGCBCdo_i8<h=jz1IDPaH@2
+R3
+Z27 w1733982798
+Z28 8C:/Users/User/Desktop/FPU/FloatingAddition.v
+Z29 FC:/Users/User/Desktop/FPU/FloatingAddition.v
+L0 2
+R7
+r1
+31
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatingAddition.v|
+R9
+Z31 n@floating@addition
+Z32 !s108 1734195857.200000
+Z33 !s107 C:/Users/User/Desktop/FPU/FloatingAddition.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFloatingCompare
+Z34 !s100 KFTRhfVEN?oM1UB?IZ2bX2
+Z35 I8bn>UU4?C:U96A=T_n]UH0
+Z36 V8dg18QUkC^mk3M;1Xda6L0
+R3
+Z37 w1733984465
+Z38 8C:/Users/User/Desktop/FPU/FloatingCompare.v
+Z39 FC:/Users/User/Desktop/FPU/FloatingCompare.v
+L0 6
+R7
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatingCompare.v|
+R9
+Z41 n@floating@compare
+Z42 !s108 1734195857.337000
+Z43 !s107 C:/Users/User/Desktop/FPU/FloatingCompare.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFloatingDivision
+Z44 !s100 cAm8^9iMAZoBnJebNm[id2
+Z45 I>hUP^eih?UWcBmnmAIn:]2
+Z46 VIZK12<X7kXzDednQE]S]K1
+R3
+Z47 w1733992589
+Z48 8C:/Users/User/Desktop/FPU/FloatingDivision.v
+Z49 FC:/Users/User/Desktop/FPU/FloatingDivision.v
+L0 3
+R7
+r1
+31
+Z50 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatingDivision.v|
+R9
+Z51 n@floating@division
+Z52 !s108 1734195857.468000
+Z53 !s107 C:/Users/User/Desktop/FPU/FloatingDivision.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vFloatingMultiplication
+Z54 !s100 jg0c1]G9;hm<Oi9;;9n<^1
+Z55 I1fMKU[E:2Um3Q@[f`>a4P3
+Z56 VQU:`M?LHVDLDQbzL4ZzbM3
+R3
+Z57 w1733988239
+Z58 8C:/Users/User/Desktop/FPU/FloatingMultiplication.v
+Z59 FC:/Users/User/Desktop/FPU/FloatingMultiplication.v
+L0 2
+R7
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatingMultiplication.v|
+R9
+Z61 n@floating@multiplication
+!i10b 1
+!s85 0
+Z62 !s108 1734195857.527000
+Z63 !s107 C:/Users/User/Desktop/FPU/FloatingMultiplication.v|
+!s101 -O0
+vFloatMultiplicationTb
+!i10b 1
+Z64 !s100 <ED1RF9Gk5LnOD65_:_G_0
+Z65 I[<XOM3]CLnHU4;0iS5C:D0
+Z66 V1oMj`h6afLV2m^[YWK4Ze3
+R3
+Z67 w1733989514
+Z68 8C:/Users/User/Desktop/FPU/FloatMultiplicationTb.v
+Z69 FC:/Users/User/Desktop/FPU/FloatMultiplicationTb.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1734195857.590000
+!s107 C:/Users/User/Desktop/FPU/FloatMultiplicationTb.v|
+Z70 !s90 -reportprogress|300|-work|work|C:/Users/User/Desktop/FPU/FloatMultiplicationTb.v|
+!s101 -O0
+R9
+Z71 n@float@multiplication@tb

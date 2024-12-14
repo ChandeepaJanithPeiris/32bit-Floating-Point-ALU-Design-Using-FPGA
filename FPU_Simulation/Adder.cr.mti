@@ -1,0 +1,53 @@
+C:/Users/User/Desktop/FPU/FloatMultiplicationTb.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatMultiplicationTb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatMultiplicationTb
+
+Top level modules:
+	FloatMultiplicationTb
+
+} {} {}} C:/Users/User/Desktop/FPU/FloatingMultiplication.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatingMultiplication.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatingMultiplication
+
+Top level modules:
+	FloatingMultiplication
+
+} {} {}} C:/Users/User/Desktop/FPU/FloatingCompare.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatingCompare.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatingCompare
+
+Top level modules:
+	FloatingCompare
+
+} {} {}} C:/Users/User/Desktop/FPU/FloatAdditionTB.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatAdditionTB.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatAdditionTB
+
+Top level modules:
+	FloatAdditionTB
+
+} {} {}} C:/Users/User/Desktop/FPU/FloatingAddition.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatingAddition.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatingAddition
+
+Top level modules:
+	FloatingAddition
+
+} {} {}} C:/Users/User/Desktop/FPU/FloatDivisionTb.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatDivisionTb.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatDivisionTB
+
+Top level modules:
+	FloatDivisionTB
+
+} {} {}} C:/Users/User/Desktop/FPU/FloatingDivision.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FloatingDivision.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module FloatingDivision
+
+Top level modules:
+	FloatingDivision
+
+} {} {}} C:/Users/User/Desktop/FPU/FPUdefines.v {1 {vlog -work work C:/Users/User/Desktop/FPU/FPUdefines.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+
+} {} {}}

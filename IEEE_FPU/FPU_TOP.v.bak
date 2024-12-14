@@ -1,0 +1,99 @@
+module FPU_TOP (
+    input [17:0] i_switch,  // Input port for the 16-bit number
+    input key0,             // Store first input signal (active low)
+    input key1,             // Store second input signal (active low)
+    input key2,             // Perform addition and display result signal (active low)
+    input clk,              // Clock signal
+    output reg [17:0] o_LED_red,  // Output port for 32-bit result (to accommodate carry)
+    output reg [7:0] o_LED_yellow
+);
+
+    reg [31:0] first_input;  // Register to store the first 32-bit input
+	reg [15:0] first_input_part1;
+	reg [15:0] first_input_part2;
+	 
+    reg [31:0] second_input;  // Register to store the second 32-bit input
+	reg [15:0] second_input_part1;
+	reg [15:0] second_input_part2;
+	 
+    reg [32:0] stored_value; // Register to store the result of the addition
+    reg zero_div;
+
+    always @(posedge clk) begin
+        if (key0 == 1'b0) begin
+            // Store the first part of the first 16-bit input when key0 is pressed (active low)
+            first_input_part1 <= i_switch;
+            o_LED_red <= i_switch; // Light up LEDs to show the entered first input
+				always @(posedge clk) begin
+					if (key0 == 1'b0) begin
+					// Store the second part of the first 16-bit input when key0 is pressed (active low)
+						first_input_part2 <= i_switch;
+						o_LED_red <= i_switch;
+					end
+					//concatenate the two inputs to make the first 32-bit input 
+					first_input = {first_input_part1,first_input_part2};
+					end
+        end
+		  
+        else if (key1 == 1'b0) begin
+            // Store the first part of the second 16-bit input when key0 is pressed (active low)
+            second_input_part1 <= i_switch;
+            o_LED_red <= i_switch; // Light up LEDs to show the entered first input
+				always @(posedge clk) begin
+					if (key1 == 1'b0) begin
+						// Store the second part of the second 16-bit input when key0 is pressed (active low)
+						second_input_part2 <= i_switch;
+						o_LED_red <= i_switch;
+					end
+					//concatenate the two inputs to make the second 32-bit input
+					second_input = {second_input_part1,second_input_part2};
+					end
+        end
+		  
+		    //i_switch[17]  i_switch[16]
+				// 0 , 0  --> addition
+				// 0 , 1  --> subtraction
+				// 1 , 0  --> multiplication
+				// 1 , 1  --> division
+		  
+        else if (key2 == 1'b0) begin
+            // Perform the addition and display the result when key2 is pressed (active low)
+				
+				if(i_switch[17] == 1'b0 & i_switch[16] == 1'b0) begin // addition
+                    FloatingAddition FA(
+                        .A(first_input),
+                        .B(second_input),
+                        .result(stored_value)
+                    );
+					
+				end
+				if(i_switch[17] == 1'b0 & i_switch[16] == 1'b1) begin // subtraction
+					FloatingAddition FS(
+                        .A(first_input),
+                        .B(~second_input+1'b1),
+                        .result(stored_value)
+                    );
+				end
+				if(i_switch[17] == 1'b1 & i_switch[16] == 1'b0) begin  // multiplication 
+					FloatingMultiplication FM(
+                        .A(first_input),
+                        .B(second_input),
+                        .result(stored_value)
+                    );
+				end
+				if(i_switch[17] == 1'b1 & i_switch[16] == 1'b1) begin  // division
+					FloatingDivision  FD(
+                        .A(first_input),
+                        .B(second_input),
+                        .zero_division(zero_div),
+                        .result(stored_value)
+                    );					
+				end
+                o_LED_red <= stored_value[16:0];			
+				
+            //stored_value <= first_input + second_input;
+            //o_LED <= first_input + second_input; // Directly display the addition result
+        end
+    end
+
+endmodule
